@@ -22,7 +22,7 @@ public class PrimeNumberUsingRecursion {
 			return false;
 		if(start>num/2)
 			return true;
-		return isPrimeNumber(num,start=start+1);
+		return isPrimeNumber(num,start+1);
 	}
 
 }

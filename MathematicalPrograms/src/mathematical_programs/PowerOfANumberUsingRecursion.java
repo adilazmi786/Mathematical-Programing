@@ -16,7 +16,7 @@ public class PowerOfANumberUsingRecursion {
 		if(b<=0)
 			return ans;
 		ans=ans*a;
-		return powerOfANumberUsingRecursion(a, b=b-1);
+		return powerOfANumberUsingRecursion(a, b-1);
 	}
 
 }
