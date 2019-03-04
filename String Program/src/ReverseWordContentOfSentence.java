@@ -3,7 +3,6 @@ public class ReverseWordContentOfSentence {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 		String str="I love my india";
 		reverseWordsContent(str,str.length());
 	}
